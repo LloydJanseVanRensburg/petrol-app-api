@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "entries",
+  "info": {
+    "singularName": "entry",
+    "pluralName": "entries",
+    "displayName": "Entry",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "amount": {
+      "type": "decimal",
+      "required": true,
+      "default": 0
+    },
+    "liters": {
+      "type": "decimal",
+      "required": true
+    },
+    "odo": {
+      "type": "decimal",
+      "required": true
+    },
+    "distance": {
+      "type": "decimal",
+      "required": true
+    },
+    "location": {
+      "type": "string"
+    }
+  }
+}
