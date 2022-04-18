@@ -31,6 +31,9 @@
     },
     "location": {
       "type": "string"
+    },
+    "kilos_per_liter": {
+      "type": "decimal"
     }
   }
 }
